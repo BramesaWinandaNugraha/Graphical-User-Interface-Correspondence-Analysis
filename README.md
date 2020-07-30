@@ -1,5 +1,5 @@
 # Graphical-User-Interface-Correspondence-Analysis
-try:
+
     # Python 2
     import tkinter as tk
     import tkinter.filedialog
@@ -9,7 +9,7 @@ try:
     import warnings
     import prince
 
-except ImportError:
+
     # Python 3
     import tkinter as tk
     import tkinter.filedialog
@@ -17,11 +17,11 @@ except ImportError:
     import numpy as np
     import matplotlib.pyplot as plt
     import prince
-import pandas as pd
-from PIL import Image, ImageTk
+    import pandas as pd
+    from PIL import Image, ImageTk
 
 
-# --- classes ---
+
 
 class MyWindow:
     

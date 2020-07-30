@@ -132,7 +132,9 @@ class MyWindow:
     def fxn(self):
             warnings.filterwarnings("ignore", category=DeprecationWarning)
             
+            
 if __name__ == '__main__':
+
     root = tk.Tk()
     root.resizable(0,0)
     root.title("ANALISIS KORESPONDENSI")

@@ -1,4 +1,5 @@
 # Graphical-User-Interface-Correspondence-Analysis
+try:
 
     # Python 2
     import tkinter as tk
@@ -8,7 +9,8 @@
     import matplotlib.pyplot as plt
     import warnings
     import prince
-
+    
+except ImportError:
 
     # Python 3
     import tkinter as tk

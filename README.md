@@ -19,8 +19,10 @@ except ImportError:
     import numpy as np
     import matplotlib.pyplot as plt
     import prince
-    import pandas as pd
-    from PIL import Image, ImageTk
+    
+    
+import pandas as pd
+from PIL import Image, ImageTk
 
 
 
